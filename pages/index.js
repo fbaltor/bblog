@@ -11,7 +11,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <Image src="/images/avatar.jpeg" height={164} width={148} />
+        <Image
+          src="/images/avatar.jpeg"
+          height={150}
+          width={150}
+          alt="avatar"
+        />
         <h1 className="title">
           Read{' '}
           <Link href="/posts/first-post">
@@ -108,7 +113,7 @@ export default function Home() {
         }
 
         .title a {
-          color: #0070f3;
+          color: #f3934c;
           text-decoration: none;
         }
 
